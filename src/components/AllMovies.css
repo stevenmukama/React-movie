@@ -1,0 +1,201 @@
+/* .allmovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchmovie {
+  margin: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.formpart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.inputfield {
+  height: 40px;
+  width: 600px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.movietitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.releasedate {
+  text-align: center;
+  font-size: 18px;
+}
+
+.voteaverage {
+  text-align: center;
+  font-size: 18px;
+}
+
+.movieimage {
+  height: 400px;
+  width: 300px;
+  margin: 20px;
+}
+ */
+/* 
+.allmovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchmovie {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formpart {
+  display: flex;
+  justify-content: center;
+}
+
+.inputfield {
+  height: 40px;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+.movietitle,
+.releasedate,
+.voteaverage {
+  text-align: center;
+  margin: 10px;
+}
+
+.movieimage {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+} */
+
+/* .allmovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.searchmovie {
+  margin-bottom: 20px;
+}
+
+.formpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputfield {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.movietitle {
+  margin-top: 20px;
+}
+
+.releasedate,
+.voteaverage {
+  margin-bottom: 10px;
+}
+
+.movieimage {
+  width: 300px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+.allmovies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.searchmovie {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.formpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inputfield {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.moviessection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #ccc;
+  text-align: center;
+}
+
+.moviessection .movietitle {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.moviessection .releasedate {
+  font-size: 16px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.moviessection .voteaverage {
+  font-size: 16px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.moviessection .movieimage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}

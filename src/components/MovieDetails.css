@@ -1,0 +1,20 @@
+.moviename {
+  text-align: center;
+  font-size: 36px;
+  margin: 24px 0;
+}
+
+.posterimage {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.movieoverview {
+  margin: 24px 0;
+  font-size: 18px;
+}
+
+.productioncompanies {
+  font-size: 16px;
+}
