@@ -1,0 +1,23 @@
+.pagination button {
+  color: #101010;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-size: 18px;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination button:hover {
+  background-color: rgb(128, 124, 124);
+}
+
+.pagination button.active {
+  font-weight: bold;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+}

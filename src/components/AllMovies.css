@@ -1,0 +1,69 @@
+.allmovies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.searchmovie {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.formpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inputfield {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.moviessection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #ccc;
+  text-align: center;
+}
+
+.moviessection .movietitle {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.moviessection .releasedate {
+  font-size: 16px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.moviessection .voteaverage {
+  font-size: 16px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.moviessection .movieimage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
