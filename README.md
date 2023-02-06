@@ -67,7 +67,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Node.js installed
+- Atleast Node.js v14 installed
 
 ### Setup
 
